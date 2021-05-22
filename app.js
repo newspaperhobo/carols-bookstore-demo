@@ -7,7 +7,7 @@ const routes = require('./routes/index');
 require('./config/connection');
 const app = express();
 // if process.env.port doesn't exist, use port 3000
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 
